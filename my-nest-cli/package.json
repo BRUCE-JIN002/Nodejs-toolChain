@@ -1,0 +1,36 @@
+{
+  "name": "nest-cli-test-jinxx",
+  "version": "1.0.1",
+  "main": "dist/transform.js",
+  "type": "module",
+  "module": "dist/transform.js",
+  "bin": {
+    "my-cli": "./dist/cli.js"
+  },
+  "file": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^22.13.16",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/parser": "^7.27.0",
+    "@babel/template": "^7.27.0",
+    "@babel/types": "^7.27.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "prettier": "^3.5.3"
+  }
+}
